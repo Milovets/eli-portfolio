@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: 200px;
+    letter-spacing: 1.5px;
+    font-stretch: expanded;
+}
+
+body {
+    background-color: #b74ea0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px
+}
+
+/* Default Style End */
+
+/* Header Style Start */
+
+/* header {
+    padding: 10px;
+    font-weight: 300px;
+    color: white;
+    background-color: purple;
+}
+
+header h1 {
+    font-weight: 300px;
+} */
+
+nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 27px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Header Styles End */
+
+/* Main Styles Start */
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("./assets/eli-milovets.png");
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    width: 80%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+main article {
+
+}
+
+.hero p {
+    padding-top: 650px;
+    margin-left: 21px;
+    max-width: 80%;
+    font-variant: normal;
+}
+
+/* Aside Styles Start */
+.contact {
+    display: contents;
+    float: right;
+    clear: both;
+    width: 20%;
+    height:50%;
+
+    
+
+    
