@@ -20,7 +20,7 @@ a {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* Default Style End */
@@ -29,7 +29,7 @@ p {
 
 header {
   padding: 10px 10px 20px 0;
-  font-weight: 300;
+  font-weight: normal;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -41,9 +41,9 @@ header {
 
 nav {
   padding-top: 10px;
-  margin-right: 20px;
+  margin-right: 60px;
   float: right;
-  font-size: 27px;
+  font-size: 30px;
 }
 
 nav ul {
@@ -75,6 +75,10 @@ nav ul li {
   border-radius: 60%;
   height: 300px;
   width: auto;
+}
+
+.hero-cta {
+    margin-left: 10px;
 }
 
 .hero-cta h2 {
@@ -154,6 +158,8 @@ nav ul li {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 20px;
   font-size: 30px;
+  text-align: right;
+  font-weight: lighter;
 }
 
 .background h1 {
