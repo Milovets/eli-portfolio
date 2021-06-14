@@ -78,17 +78,17 @@ nav ul li {
 }
 
 .hero-cta h2 {
-  font-style: italic;
+  font-style: bold;
   font-size: 55px;
   color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   align-items: flex-end;
 }
 
-main {
-  width: 100%;
-  display: inline-block;
-  margin-left: 10px;
+.hero-cta h3 {
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: 200px;
 }
 
 .content {
@@ -119,9 +119,25 @@ main {
   margin-right: auto;
   text-align: center;
 }
+  
+  .project-card h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.project-card img {
+  border-radius: 60px;
+  width: 100%;
+}
 
 .project-container {
   display: flex;
+
+}
+
+.project-image img {
+    width: 100%;
 }
 
 .basic-image {
@@ -138,16 +154,6 @@ main {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 20px;
   font-size: 30px;
-}
-
-.project-image img {
-  width: 100%;
-}
-
-.project-card h1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .background h1 {
