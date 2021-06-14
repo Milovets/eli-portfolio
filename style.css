@@ -27,16 +27,17 @@ p {
 
 /* Header Style Start */
 
-/* header {
-    padding: 10px;
-    font-weight: 300px;
-    color: white;
-    background-color: purple;
+header {
+    padding: 10px 10px 20px 0;
+    font-weight: 300;
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    position: sticky;
+    background-image: url(./assets/eli-milovets.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-header h1 {
-    font-weight: 300px;
-} */
 
 nav {
     padding-top: 10px;
@@ -57,12 +58,28 @@ nav ul li {
 
 /* Main Styles Start */
 .hero {
-    height: 800px;
-    width: 100%;
     background-image: url("./assets/eli-milovets.png");
-    margin-bottom: 10px;
     background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-attachment: fixed;
+    padding: 53vh 0 15vh 30px;
+    padding-top: 53vh;
+    padding-bottom: 15vh;
+}
+  
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: flex-end;
+}
+
+.hero p {
+    /* padding-top: 650px; */
 }
 
 main {
@@ -71,8 +88,11 @@ main {
     margin-left: 10px;
 }
 
-main article {
-
+main .about h1 {
+    padding-top: 500px;
+    margin-left: 21px;
+    max-width: 80%;
+    font-variant: normal;
 }
 
 
@@ -80,11 +100,10 @@ main article img {
     max-height: 200px;
 }
 
-.hero p {
-    padding-top: 650px;
-    margin-left: 21px;
-    max-width: 80%;
-    font-variant: normal;
+
+.project-completed img {
+    max-width: 100%;
+    height: auto;
 }
 
 .even-columns {
