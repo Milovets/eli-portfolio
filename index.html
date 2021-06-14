@@ -8,7 +8,6 @@
     </head>
 
     <header>
-        <body>
         <!-- Header Start -->
             <div>
                 <!-- Start Navigation: About Me, View my work, contact info -->
@@ -26,10 +25,10 @@
                     </ul>
                 </nav>
             </div>
-        </header>
+    </header>
 
     <!-- End Navigation -->
-
+<body class="background">
     <!-- Hero -->
     <section id="about" class="hero">
         <img src="./assets/eli-headshot.JPG" alt="Eli Milovets looks pretty dang nice professional headshot.">
@@ -43,51 +42,31 @@
     </section>
     <!-- End Hero -->
 
-    <!-- "About" Start -->
-    <main>
-        <section id="content" class="portfolio">
-        <div class="flex-row">
-            <h2>
-                CONTENT
-            </h2>
+    <h1>Content</h1>
+    <div class="content" id="content">
         <!--Make Run Buddy image large; Add links to project images. -->
-        </div>
-        <article class=project-completed>
-            <h3>Run Buddy</h3>
+        <!-- <article class=project-completed></article> -->
             <div class="project-image">
                 <img src="./assets/run-buddy.jpg" alt="Screenshot of a landing page of a fitness website called Run Buddy." />
             <p>
 
             </p>
         </div>
-
-        <article class="even-columns">
-            <div class="col"> </div>
-                <h3>Project 2</h3>
-                <div class="project-image">
-                <img src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
-            <p>
-
-            </p>
-        </div>
-
-        <article class="even-columns">
-            <h3>Project 3</h3>
-            <div class="project-image">
-                <img src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
-            <p>
-
-            </p>
-        </div>
-
-        <article class="even-columns">
-            <h3>Project 4</h3>
-            <div class="project-image">
-                <img src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
+        <div class="project-container">
+            <div class="project-card">
+                <h1 >Project 2</h1>
+                <img class="project-card" src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
             </div>
-        </div>
-    </main>
-    </section>
+             <div class="project-card">
+                <h1>Project 3</h1>
+                <img class="project-card" src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
+             </div>   
+             <div class="project-card">    
+                <h1>Project 4</h1>
+                <img class="project-card" src="./assets/404.png" alt="Screenshot of 404 website that says the resource could not be found." />
+             </div>   
+            </div>
+    </div>
     <!-- End About -->
 
         <!-- Start Aside -->
@@ -118,7 +97,6 @@
         </article>
     </aside>
 <!-- End Aside -->
-
 </body>
 
 </html>
