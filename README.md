@@ -1,6 +1,6 @@
 # eli-portfolio
 
-The in-progress portfolio of future full-stack developer, Eli Milovets.
+The in-progress portfolio of aspiring full-stack developer, Eli Milovets.
 
 ## Description
 
